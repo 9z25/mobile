@@ -13,7 +13,7 @@ import (
 )
 
 // MinSDK is the targeted sdk version for support by package binres.
-const MinSDK = 16
+const MinSDK = 21
 
 func apiResources() ([]byte, error) {
 	apiResPath, err := apiResourcesPath()
