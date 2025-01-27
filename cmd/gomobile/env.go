@@ -113,7 +113,7 @@ func buildEnvInit() (cleanup func(), err error) {
 	// Find gomobilepath.
 	gopath := goEnv("GOPATH")
 	for _, p := range filepath.SplitList(gopath) {
-		gomobilepath = filepath.Join(p, "pkg", "gomobile")
+		gomobilepath = filepath.Join(p, "pkg", "fm-mobile")
 		if _, err := os.Stat(gomobilepath); buildN || err == nil {
 			break
 		}
