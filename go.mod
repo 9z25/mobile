@@ -1,4 +1,5 @@
-module golang.org/x/mobile
+module github.com/9z25/mobile
+
 
 go 1.22.0
 
